@@ -1,0 +1,12 @@
+tasks:
+  - init: |
+      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+      source ~/dotfiles/install.sh
+    command: source ~/.bashrc
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
+    - dsznajder.es7-react-js-snippets
+    - ms-vscode.vscode-typescript-next

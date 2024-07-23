@@ -1,0 +1,15 @@
+[user]
+    name = Khant Sithu
+    email = khantseithuu@gmail.com
+[core]
+    editor = code --wait
+[color]
+    ui = auto
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = !gitk
